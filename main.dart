@@ -23,6 +23,21 @@ void menu() {
             String? num1 = stdin.readLineSync();
             print("Digite o Segundo valor");
             String? num2 = stdin.readLineSync();
+
+            if (num1 != null && num2 != null) {
+              if (num1.isNotEmpty && num2.isNotEmpty) {
+                try {
+                  num valor1 = num.parse(num1);
+                  num valor2 = num.parse(num2);
+                } catch (e) {
+                  throw (Exception('\n ERRO! os valores $num1 e $num2 \n'));
+                }
+              } else {
+                print("ERRO! Digite algum valor !!!");
+              }
+            } else {
+              print("ERRO ! digite valores válidos");
+            }
             break;
           case 2:
             break;
