@@ -16,7 +16,20 @@ void menu() {
     if (entrada.isNotEmpty) {
       try {
         final int op = int.parse(entrada);
-        print(op);
+        //print(op);
+        switch (op) {
+          case 1:
+            break;
+          case 2:
+            break;
+          case 3:
+            break;
+          case 4:
+            break;
+          default:
+            print("Valor fora da faixa ! ");
+            exit(0);
+        }
       } catch (e) {
         throw (Exception('\n ERRO! o valor $entrada não é numérico \n'));
       }
