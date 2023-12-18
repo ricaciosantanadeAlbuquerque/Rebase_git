@@ -86,5 +86,5 @@ void soma(num valorA, num valorB) {
 }
 
 void subtracao(num valorA, num valorB) {
-  print("\n O Resultado da subtração é ${valorA - valorB}");
+  print("\n O Resultado da subtração é ${valorA - valorB}\n");
 }
