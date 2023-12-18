@@ -85,6 +85,26 @@ void menu() {
             }
             break;
           case 4:
+            print("Digite o primeiro valor \n");
+            String? num1 = stdin.readLineSync();
+            print("Digite o Segundo valor \n");
+            String? num2 = stdin.readLineSync();
+
+            if (num1 != null && num2 != null) {
+              if (num1.isNotEmpty && num2.isNotEmpty) {
+                try {
+                  num valor1 = num.parse(num1);
+                  num valor2 = num.parse(num2);
+                  divisao(valor1, valor2);
+                } catch (e) {
+                  throw (Exception('\n ERRO! os valores $num1 e $num2 \n'));
+                }
+              } else {
+                print("ERRO! Digite algum valor !!! \n");
+              }
+            } else {
+              print("ERRO ! digite valores válidos \n");
+            }
             break;
           default:
             print("Valor fora da faixa ! \n");
@@ -111,4 +131,8 @@ void subtracao(num valorA, num valorB) {
 
 void multiplicacao(num valorA, num valorB) {
   print("\n O Resultado da Multiplicação é ${valorA * valorB} \n");
+}
+
+void divisao(num valorA, num valorB) {
+  print('\n O resultado da Divisão é ${valorA / valorB}\n');
 }
