@@ -19,9 +19,9 @@ void menu() {
         //print(op);
         switch (op) {
           case 1:
-            print("Digite o primeiro valor");
+            print("Digite o primeiro valor \n");
             String? num1 = stdin.readLineSync();
-            print("Digite o Segundo valor");
+            print("Digite o Segundo valor \n");
             String? num2 = stdin.readLineSync();
 
             if (num1 != null && num2 != null) {
@@ -34,10 +34,10 @@ void menu() {
                   throw (Exception('\n ERRO! os valores $num1 e $num2 \n'));
                 }
               } else {
-                print("ERRO! Digite algum valor !!!");
+                print("ERRO! Digite algum valor !!! \n");
               }
             } else {
-              print("ERRO ! digite valores válidos");
+              print("ERRO ! digite valores válidos \n");
             }
             break;
           case 2:
@@ -47,20 +47,20 @@ void menu() {
           case 4:
             break;
           default:
-            print("Valor fora da faixa ! ");
+            print("Valor fora da faixa ! \n");
             exit(0);
         }
       } catch (e) {
         throw (Exception('\n ERRO! o valor $entrada não é numérico \n'));
       }
     } else {
-      print("ERRO! Digite um valor válido.");
+      print("ERRO! Digite um valor válido. \n");
     }
   } else {
-    print("ERRO! Valor nulo");
+    print("ERRO! Valor nulo \n");
   }
 }
 
 void soma(num valorA, num valorB) {
-  print("O Resultado da soma é ${valorA + valorB}");
+  print("\n O Resultado da soma é ${valorA + valorB} \n");
 }
