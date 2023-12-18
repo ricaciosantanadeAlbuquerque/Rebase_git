@@ -19,6 +19,10 @@ void menu() {
         //print(op);
         switch (op) {
           case 1:
+            print("Digite o primeiro valor");
+            String? num1 = stdin.readLineSync();
+            print("Digite o Segundo valor");
+            String? num2 = stdin.readLineSync();
             break;
           case 2:
             break;
@@ -39,4 +43,8 @@ void menu() {
   } else {
     print("ERRO! Valor nulo");
   }
+}
+
+void soma(num valorA, num valorB) {
+  print("O Resultado da soma é ${valorA + valorB}");
 }
