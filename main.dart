@@ -73,7 +73,7 @@ void menu() {
                 try {
                   num valor1 = num.parse(num1);
                   num valor2 = num.parse(num2);
-                  subtracao(valor1, valor2);
+                  multiplicacao(valor1, valor2);
                 } catch (e) {
                   throw (Exception('\n ERRO! os valores $num1 e $num2 \n'));
                 }
