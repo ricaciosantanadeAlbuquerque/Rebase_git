@@ -18,3 +18,13 @@
 * issues
 * project
 * pull requests
+
+### Image do rebase do git 
+
+![rebase](git rebase.png)
+
+* O intuito é mostrar como funciona o rebase no git 
+
+##### LinkedIn
+
+[https://www.linkedin.com/feed/](https://www.linkedin.com/feed/)
