@@ -21,7 +21,7 @@
 
 ### Image do rebase do git 
 
-![rebase](git rebase.png)
+![rebase](git_rebase.png)
 
 * O intuito é mostrar como funciona o rebase no git 
 
