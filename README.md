@@ -15,7 +15,7 @@
 
 ## Funções do github utilizadas no projeto
 
-* issues
+* issues.
 * project
 * pull requests
 
